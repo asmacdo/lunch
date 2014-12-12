@@ -1,4 +1,4 @@
-# lunch.rb - where should we go to lunch today?
+# When should we leave?
 # Copyright (C) 2013  M. Adam Price
 #
 # This program is free software: you can redistribute it and/or modify
@@ -14,32 +14,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see {http://www.gnu.org/licenses/}.
 
-PLACES = [
-  "battistella's",
-  "beasley's",
-  "bida manda",
-  "the big easy",
-  "big ed's",
-  "buku",
-  "busy bee",
-  "capital club 16",
-  "centro",
-  "chuck's",
-  "cooper's",
-  "el rodeo",
-  "garland",
-  "gravy",
-  "mantra",
-  "mecca",
-  "oxford",
-  "the pit",
-  "raleigh times",
-  "remedy diner",
-  "sitti",
-  "sono",
-  "sosta cafe",
-  "spize",
-  "tir na nog",
+TIMES = [
+  time.RIGHT_NOW
 ]
 
-puts PLACES[rand(PLACES.size)]
+puts Times[rand(TIMES.size)]
